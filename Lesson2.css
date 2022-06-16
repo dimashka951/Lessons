@@ -1,0 +1,152 @@
+/* top navigation */
+.theMainTitle{
+    font-family:system-ui;
+    color: #424949;
+}
+#home{
+    font-size:40px;
+}
+#threeLines{
+    float:right;
+}
+header{
+    background-color: white;
+    width:100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 3px solid #2562FF;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li > a{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    padding: 1px 5px;
+}
+li > a:hover{
+    color:grey;
+    transition: 0.3s ease;
+}
+li{
+    display: inline-block;
+}
+/* top navigation */
+
+/* bottom navigation */
+#bottomNav{
+    background-color: white;
+    width:100%;
+    height: 40px;
+}
+#bottomNavUl{
+    text-align: center;
+}
+div > a{
+    text-decoration: none;
+}
+/* bottom navigation */
+
+/* background */
+body{
+    background: url("colors.jpeg") no-repeat top;
+    background-size: cover;
+}
+/* background */
+
+/* first rectangle */
+#rectangle1 {
+    width: 80%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    margin-left: 10%;
+
+    margin-top:60px;
+    margin-bottom:60px;
+    float: left;
+    text-align:center;
+    vertical-align: middle;
+}
+img{
+    width: 200px;
+    margin-bottom: 40px;
+}
+#layer1 {
+    width: 98%;
+    height: 5%; 
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: left;
+    font-family: system-ui;
+
+}
+#layer1 P {
+    padding: 10px; 
+    color: #2562FF;
+}
+hr {
+    border: none; 
+    background-color: #17202A;
+    color: #17202A; 
+    height: 2px;
+    margin-left: 10px;
+    margin-right: 30%;
+    margin-top: -20px;
+   }
+#layer2 {
+    width: 98%; 
+    height: 30%;
+    font-size: 20px;
+    text-align: left;
+    font-family:system-ui;
+
+}
+#layer2 P {
+    padding: 10px; 
+    color:#424949;
+}
+#layer3 {
+    width: 98%;
+    height: 30%; 
+    font-size: 20px;
+    font-family:system-ui;
+    text-align: left;
+    margin-bottom: 40px;
+}
+#layer3 P {
+    padding: 10px;
+    color:#424949; 
+}
+/* first rectangle */
+
+/* second rectangle */
+#rectangle2 {
+    width: 40px;
+    height: 180px;
+    background: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: auto;
+    float: left;
+    padding: 10px;
+    margin-top: 10%;
+}
+.layer {
+    width: 100%;
+    height: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+    font-family: system-ui;
+}
+#layer P {
+    padding: 11px; 
+}
+.right{
+    text-decoration: none;
+    color: #666;
+}
+/* second rectangle */

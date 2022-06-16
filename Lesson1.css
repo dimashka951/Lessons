@@ -1,0 +1,136 @@
+/* top navigation */
+.theMainTitle{
+    font-family:system-ui;
+    color: #424949;
+}
+#home{
+    font-size:40px;
+}
+#threeLines{
+    float:right;
+}
+header{
+    background-color: white;
+    width:100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 3px solid #2562FF;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li > a{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    padding: 1px 5px;
+}
+li > a:hover{
+    color:grey;
+    transition: 0.3s ease;
+}
+li{
+    display: inline-block;
+}
+/* top navigation */
+
+/* bottom navigation */
+#bottomNav{
+    background-color: white;
+    width:100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#bottomNavUl{
+    text-align: center;
+}
+div > a{
+    text-decoration: none;
+}
+#prawaKreska{
+    color: grey;
+}
+/* bottom navigation */
+
+/* background */
+body{
+    background: url("colors.jpeg") no-repeat;
+    background-size: cover;
+}
+/* background */
+
+/* rectangle */
+#rectangle {
+    width: 46%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    margin: 60px auto 60px 3%;
+    vertical-align: middle;
+    text-align:center;
+}
+#layer1 {
+    width: 98%;
+    height: 5%; 
+    margin-top: -40px;
+    font-size: 20px;
+    text-align: left;
+    font-family: system-ui;
+
+}
+#layer1 P {
+    padding: 10px; 
+    color: #2562FF;
+}
+hr {
+    border: none; 
+    background-color: #17202A;
+    color: #17202A; 
+    height: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -20px;
+   }
+#layer2 {
+    width: 98%; 
+    height: 30%;
+    font-size: 20px;
+    text-align: left;
+    font-family:system-ui;
+}
+#layer2 P {
+    padding: 10px; 
+    color:#424949;
+}
+#layer3 {
+    width: 98%;
+    height: 30%; 
+    font-size: 20px;
+    font-family:system-ui;
+    text-align: left;
+}
+#layer3 P {
+    padding: 10px;
+    color:#424949; 
+}
+#layer4 {
+    width: 200px;
+    height: 40px; 
+    font-size: 18px;
+    font-family:system-ui;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#layer4 P {
+    color: white;
+    background-color: #17202A;
+}
+div > a{
+    text-decoration: none;
+}
+/* rectangle */
